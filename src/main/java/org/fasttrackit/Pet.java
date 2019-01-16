@@ -7,9 +7,14 @@ public class Pet {
     int health;
     int hunger;
     int mood;
-    String food;
-    String activity;
 
+
+
+    public int resting(int time){
+            System.out.println(2);
+            return time;
+
+        }
 
 }
 

@@ -6,9 +6,10 @@ package org.fasttrackit;
  */
 public class App 
 {
-    public static void main( String[] args )
-    {
-    Pet dog = new Pet();
+    public static void main( String[] args ) {
+
+        Pet dog = new Pet();
+
 
     dog.name = "Cooper";
     dog.age = 3;
@@ -31,6 +32,7 @@ public class App
     doc.name ="Paul";
     doc.specialization="pathologist";
 
+        dog.resting(3);
 
 
 
